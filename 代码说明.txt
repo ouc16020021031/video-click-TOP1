@@ -1,0 +1,34 @@
+环境配置:
+
+python3.6.8
+CentOS Linux release 7.2.1511 (Core)   20g内存+20g虚拟内存     8g显卡
+
+CUDA Version:
+- 9.0.176
+
+CUDNN Version:
+- define CUDNN_MAJOR 7
+- define CUDNN_MINOR 6
+- define CUDNN_PATCHLEVEL 3
+define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
+
+python依赖包安装查看 packages.txt
+
+
+
+
+
+代码：
+train_fm.py是训练代码（包含数据处理，特征工程以及模型训练、提交文件输出。内存有详细说明）
+deepfm.py 是模型构造脚本，基于deepctr框架做了修改，增加了lstm 模块
+inputs.py 是工具类，基于deepctr框架做了修改，支持相同列名共享Embedding
+
+
+
+
+
+
+
+
+
+
