@@ -1,5 +1,5 @@
 ## 视频点击预测大赛-TOP1方案
-------------------------------------------------
+
 [视频点击预测大赛](https://www.turingtopia.com/competitionnew/detail/e4880352b6ef4f9f8f28e8f98498dbc4/dataset)
 
 CNS队员：  
